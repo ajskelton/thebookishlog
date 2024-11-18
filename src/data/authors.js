@@ -1,5 +1,20 @@
 export const authorData = [
   {
+    name: "Scott Lynch",
+    books: ["Red Seas Under Red Skies"],
+    poc: false,
+    gender: "male",
+    lgbt: false,
+    fav: true,
+    country: [
+      {
+        code: "US",
+        name: "United States"
+      }
+    ],
+    website: "scottlynch.us"
+  },
+  {
     name: "Erica Armstrong Dunbar",
     books: ["She Came to Slay: The Life and Times of Harriet Tubman"],
     poc: true,

@@ -48,23 +48,49 @@
         </p>
         <p class="stat-title">Avg Days Per Book</p>
       </div>
+    </div>
+    <div class="statistics">
       <div class="stat pink">
+        <p class="stat-number">
+          {{ countYear("2017") }}
+        </p>
+        <p class="stat-title">2017</p>
+      </div>
+      <div class="stat purple">
+        <p class="stat-number">
+          {{ countYear("2018") }}
+        </p>
+        <p class="stat-title">2018</p>
+      </div>
+      <div class="stat blue">
+        <p class="stat-number">
+          {{ countYear("2019") }}
+        </p>
+        <p class="stat-title">2019</p>
+      </div>
+      <div class="stat green">
+        <p class="stat-number">
+          {{ countYear("2020") }}
+        </p>
+        <p class="stat-title">2020</p>
+      </div>
+      <div class="stat red">
         <p class="stat-number">
           {{ countYear("2021") }}
         </p>
         <p class="stat-title">2021</p>
       </div>
-      <div class="stat blue">
+      <div class="stat orange">
         <p class="stat-number">
           {{ countYear("2022") }}
         </p>
         <p class="stat-title">2022</p>
       </div>
-      <div class="stat purple">
+      <div class="stat gold">
         <p class="stat-number">{{ countYear("2023") }}</p>
         <p class="stat-title">2023</p>
       </div>
-      <div class="stat orange">
+      <div class="stat pink">
         <p class="stat-number">{{ countYear("2024") }}</p>
         <p class="stat-title">2024</p>
       </div>

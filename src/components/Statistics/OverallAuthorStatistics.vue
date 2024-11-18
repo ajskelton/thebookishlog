@@ -24,6 +24,7 @@
           }}%
         </p>
       </div>
+
       <div class="stat orange">
         <p class="stat-number">{{ valueCount("gender", "non-binary") }}</p>
         <p class="stat-title">Non-Binary</p>
